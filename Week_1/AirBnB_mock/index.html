@@ -2,90 +2,87 @@
 <html lang="en">
   
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
-    <script src="<script src="https://kit.fontawesome.com/a2e45d08f9.js" crossorigin="anonymous"></script>
     <title>Mock Airbnb page</title>
 </head>
 
 <body>
     <header>
-        <ul class="logo">
-            <li><img src="img/img 6.png" alt="airbnb"</li>
-            <li>airbnb</li>
-        </ul>
-            <div class="availability">
-                <a href="/places.html">Anywhere</a>
-                <a href="/day.html">Any week</a>
-                <a href="/people.html">Add guests</a>
-                <i class="fas fa-magnifying-glass"></i>
-                <p>Airbnb your home</p>
-                <i class="fas fa-globe"></i>
-                <span>
-                    <i class="fa-solid fa-bars"></i>
-                    <i class="fa-solid fa-circle-user"></i>
-                </span>
+        <nav>
+            <div>
+                <img src="img/img 6.png" alt="airbnb" style="width: 60px; height: 60px;">
+                <h2>airbnb</h2>
             </div>
+
+            <ul class="available select">
+                <li><a href="/"><b>Anywhere</b></a></li>
+                <li>|</li>
+                <li></li><a href="/"><b>Any week</b></a></li>
+                <li>|</li>
+                <li></li><a href="/">Add guests</a></li>
+                <li class="search">
+                    <span icon><img src="img/search icon.png" alt="search tool" style="width: 20px; height: 20px;"></span>
+                </li>
+            </ul>
+
+            <ul class="user">
+                <li><a href="/"><b>Airbnb your home</b></a></li>
+                <li><a href="/"><img src="img/globe icon.png" alt="globe icon" style="width: 25px; height: 25px;"></a></li>
+                <li class="select"><a href="/"><img src="img/menu icon.png" alt="menu icon" style="width: 15px; height: 15px;"></a></li>
+                <a href="/"><img src="img/user icon.png" alt="user icon" style="width: 25px; height: 25px;"></a>
+            </ul>
+        </nav>
     </header>
     <hr>
-    <nav class="main-nav">
-        <ul>
-            <li><i class="fa-solid fa-tree"></i><a href="/tropical.html">Tropical</a></li>
-            <li><i class="fa-solid fa-water-ladder"></i><a href="/pool.html">Amazing pools</a></li>
-            <li><i class="fa-solid fa-umbrella-beach"></i><a href="/beach.html">Beachfront</a></li>
-            <li><i class="fa-solid fa-key fa-flip-horizontal"></i><a href="/new.html">New</a></li>
-            <li><i class="fa-solid fa-bezier-curve"></i><a href="/windmill.html">Windmill</a></li>
-            <li><i class="fa-solid fa-person-shelter"></i><a href="/room.html">Private rooms</a></li>
-            <li><i class="fa-solid fa-sailboat"></i><a href="/omg.html">OMG!</a></li>
-            <li><i class="fa-solid fa-palette"></i><a href="/creative.html">Creative spaces</a></li>
-            <li><i class="fa-solid fa-fire"></i><a href="/trends.html">Trending</a></li>
-            <li><i class="fa-solid fa-shield-dog"></i><a href="/cabin.html">Cabins</a></li>
-            <li><i class="fa-solid fa-house"></i><a href="/mansion.html">Mansions</a></li>
-            <li><i class="fa-solid fa-swatchbook"></i><a href="/design.html">Design</a></li>
+    <section>
+        <ul class="items">
+            <li><a href="/"><img src="img/Tropical icon.jpg" alt="Tropical" style="height: 45px; width:45px;"><p><b><u>Tropical</u></b></p></a></li>
+            <li><a href="/"><img src="img/Pool icon.png" alt="Pools" style="height: 45px; width:45px;"><p>Amazing pools</p></a></li>
+            <li><a href="/"><img src="img/Beach icon.jpg" alt="Beach" style="height: 45px; width:45px;"><p>Beachfront</p></a></li>
+            <li><a href="/"><img src="img/New key icon.png" alt="New" style="height: 45px; width:45px;"><p>New</p></a></li>
+            <li><a href="/"><img src="img/Windmill icon.png" alt="Windmill" style="height: 45px; width:45px;"><p>Windmill</p></a></li>
+            <li><a href="/"><img src="img/room icon.jpg" alt="Rooms" style="height: 45px; width:45px;"><p>Private rooms</p></a></li>
+            <li><a href="/"><img src="img/OMG icon.jpg" alt="OMG" style="height: 45px; width:45px;"><p>OMG!</p></a></li>
+            <li><a href="/"><img src="img/Creative icon.png" alt="Creative" style="height: 45px; width:45px;"><p>Creative spaces</p></a></li>
+            <li><a href="/"><img src="img/Hot trends icon.png" alt="Trends" style="height: 45px; width:45px;"><p>Trending</p></a></li>
+            <li><a href="/"><img src="img/Island icon.png" alt="Islands" style="height: 45px; width:45px;"><p>Islands</p></a></li>
+            <li><a href="/"><img src="img/Cabin icon.png" alt="Cabin" style="height: 45px; width:45px;"><p>Cabins</p></a></li>
+            <li><a href="/"><img src="img/Mansion icon.png" alt="Mansion" style="height: 45px; width:45px;"><p>Mansions</p></a></li>
+            <li><a href="/"><img src="img/Design icon.png" alt="Design" style="height: 45px; width:45px;"><p>Design</p></a></li>
+            <li class="select"><a href="/"><b>></b></a></li>
+            <li class="select filter"><a href="/"><img src="img/Filter icon.jpg" alt="Filters" style="height: 45px; width:45px;"></a><p>Filters</p></li>
         </ul>
-        <span>
-            <img src="img/img 5.png" alt="forward">
-            <button id="filter-button" class="button"><i class="fa-solid fa-right-left"></i>Filters</button>
-        </span>
-    </nav>
+    </section>
 
     <main>
-        <div class="wrapper">
-            <article class="content">
-
+        <article class="wrapper">
                 <div class="panel">
-                    <i class="fa-brands fa-gratipay"></i>
-                    <img class="panelling" src="img/img 3.jpg" alt="Terres">
-                    <span class="panel-title"></span>
-                    <h2>Terres Basses, St. Martin</h2>
-                    <p>7,308 kilometers away</p>
-                    <p>May 5-12</p>
-                    <h2>$1,258 night</h2>
+                    <img class="panelling" src="img/img 3.jpg" alt="Terres" style="height: 450px; width:435px;">
+                    <p><strong>Terres Basses, St. Martin</strong>
+                        <br>7,308 kilometers away
+                        <br>May 5-12
+                        <br><strong>$1,258</strong> night</p>
 
-                    <i class="fa-brands fa-gratipay"></i>
-                    <img class="panelling" src="img/img 4.jpg" alt="Cul-de-Sac">
-                    <span class="panel-title"></span>
-                    <h2>Cul-de-Sac, St. Martin</h2>
-                    <p>7,297 kilometers away</p>
-                    <p>Jul 26-Aug 2</p>
-                    <h2>$1,000 night</h2>
+                    <img class="panelling" src="img/img 4.jpg" alt="Cul-de-Sac" style="height: 450px; width:435px;">
+                    <p><strong>Cul-de-Sac, St. Martin</strong>
+                        <br>7,297 kilometers away
+                        <br>Jul 26-Aug 2
+                        <br><strong>$1,000</strong> night</p>
 
-                    <i class="fa-brands fa-gratipay"></i>
-                    <img class="panelling" src="img/img 2.jpg" alt="Weston">
-                    <span class="panel-title"></span>
-                    <h2>Weston, Barbados</h2>
-                    <p>6,931 kilometers away</p>
-                    <p>May 7-14</p>
-                    <h2>$1,500 night</h2>
+                    <img class="panelling" src="img/img 2.jpg" alt="Weston" style="height: 450px; width:435px;">
+                    <p><strong>Weston, Barbados</strong>
+                        <br>6,931 kilometers away
+                        <br>May 7-14
+                        <br><strong>$1,500</strong> night</p>
 
-                    <i class="fa-brands fa-gratipay"></i>
-                    <img class="panelling" src="img/img 1.jpeg" alt="Barbados">
-                    <span class="panel-title"></span>
-                    <h2>Barbados, Barbados</h2>
-                    <p>6,930 kilometers away</p>
-                    <p>Jun 3-8</p>
-                    <h2>$500 night</h2>
+                    <img class="panelling" src="img/img 1.jpeg" alt="Barbados" style="height: 450px; width:435px;">
+                    <p><strong>Barbados, Barbados</strong>
+                        <br>6,930 kilometers away
+                        <br>Jun 3-8
+                        <br><strong>$500</strong> night</p>
                 </div>
-            </article>
-        </div>    
+        </article>
+    </main> 
 </body>
 </html>

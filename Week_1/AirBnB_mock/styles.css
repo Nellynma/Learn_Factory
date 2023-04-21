@@ -1,55 +1,99 @@
-body, header, ul, li{
+body{
     margin: 0;
     padding: 0;
-    font-family: serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
 }
 
-header{
-    margin: 25px;
-    width: 1880px;
-    display: flex;
-    gap: 655px;
-}
-
-header ul li{
+h2{
     color: #ff5a60;
-    display: inline-block;
+    display: inline;
 }
 
-ul{
+header hr{
+    color:#dad4d4;
+}
+
+nav{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div{
+    gap: 7px;
+}
+
+.available ul, li, a{
     list-style-type: none;
-    font-weight: bolder;
+    margin-left: 5px;
+    color: #313133;
+    text-decoration: none;
 }
 
-.availability{
+.select{
+    padding: 6px;
+    border: 1px solid #dad4d4;
+    border-radius: 45px;
+    box-shadow: 5px;
+}
+
+.select span{
+    background-color: #ff0000fd;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 9px;
+    width: 20px;
+    height: 20px;
+}
+
+.available li{
+    margin-left: 6px;
+}
+
+.items{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
     margin-top: 35px;
+    margin-bottom: 10px;
+    justify-content: space-around;
 }
 
-main{
+.panel{
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    position: relative;
+}
+
+.panel img{
     border-radius: 15px;
 }
-
-.main-nav ul{
+/* #container{
     display: flex;
-    gap: 10px;
-}
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 100vh;
+    padding: 30px 15px;
+} */
 
-main{
-    margin: 25px;
-}
-
-.wrapper .content .panel{
-    margin: 0 auto;
-    display: grid;
-}
-
-article p{
-    line-height: 1em;
-}
-
-.content{
-    padding: 2px;
-    display: grid;
-}
+/* .availzble span{
+      width: 20px;
+    height: 20px;*/
